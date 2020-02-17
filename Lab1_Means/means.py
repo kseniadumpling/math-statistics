@@ -35,10 +35,28 @@ def extr_mean(sample):
     max = sample[sample_size-1]
     return (min + max) / 2 
 
+# Printing results of calculations
+# Input: 
+#   name (string) - name of characteristic (mean
+#   mean (float) - sum of 1000 calculations
+#   mean_square (float) - sum of squares of 1000 calculations
+def print_mean_result(name, mean, mean_square):
+    print("\n\n ---------- {:s} ----------\n".format(name))
+    for i in range(5):
+        print("\n{:d} distribution \n".format(i))
+
+        first_moment = mean[i] / 1000
+        second_moment = mean_square[i] / 1000
+        deviation = second_moment - pow(first_moment, 2)
+
+        print("\tFirst moment: {:.10f}".format(first_moment))
+        print("\tSecond moment: {:.10f}".format(second_moment))
+        print("\tDeviation: {:.10f}".format(deviation))
+
 # ----- Main loop -----
 # Monte Carlo method
-# The mean, median, extremal mean and trimmed mean will be computed 
-# one thousand times and after there will be average first & second moments
+# The mean, median, extremal mean and trimmed mean will be calculated 
+# one thousand times and after there will be calculated average of first & second moments
 for iteration in range(1000):
     # Generate samples of different kinds of distributions
     sample[0] = np.random.standard_normal(size = sample_size)
@@ -59,59 +77,10 @@ for iteration in range(1000):
         extreme_square[i] += pow(extr_mean(sample[i]), 2)
         trimmed_square[i] += pow(stats.trim_mean(sample[i], trim), 2)
 
-# Compute mean moments 
-print("\n\n ---------- Mean ----------\n")
-for i in range(5):
-    print("\n{:d} distribution \n".format(i))
-
-    first_moment = mean[i] / 1000
-    second_moment = mean_square[i] / 1000
-    deviation = second_moment - pow(first_moment, 2)
-
-    print("\tFirst moment: {:.10f}".format(first_moment))
-    print("\tSecond moment: {:.10f}".format(second_moment))
-    print("\tDeviation: {:.10f}".format(deviation))
-
-# Compute median moments 
-print("\n\n ---------- Median ----------\n")
-for i in range(5):
-    print("\n{:d} distribution \n".format(i))
-
-    first_moment = median[i] / 1000
-    second_moment = median_square[i] / 1000
-    deviation = second_moment - pow(first_moment, 2)
-
-    print("\tFirst moment: {:.10f}".format(first_moment))
-    print("\tSecond moment: {:.10f}".format(second_moment))
-    print("\tDeviation: {:.10f}".format(deviation))
-
-
-# Compute half sum of extreme elements moments 
-print("\n\n ---------- Extreme ----------\n")
-for i in range(5):
-    print("\n{:d} distribution \n".format(i))
-
-    first_moment = extreme[i] / 1000
-    second_moment = extreme_square[i] / 1000
-    deviation = second_moment - pow(first_moment, 2)
-
-    print("\tFirst moment: {:.10f}".format(first_moment))
-    print("\tSecond moment: {:.10f}".format(second_moment))
-    print("\tDeviation: {:.10f}".format(deviation))
-
-# Compute trimmed mean moments 
-print("\n\n ---------- Trimmed ----------\n")
-for i in range(5):
-    print("\n{:d} distribution \n".format(i))
-
-    first_moment = trimmed[i] / 1000
-    second_moment = trimmed_square[i] / 1000
-    deviation = second_moment - pow(first_moment, 2)
-
-    print("\tFirst moment: {:.10f}".format(first_moment))
-    print("\tSecond moment: {:.10f}".format(second_moment))
-    print("\tDeviation: {:.10f}".format(deviation))
-
+print_mean_result('Mean', mean, mean_square)
+print_mean_result('Median', median, median_square)
+print_mean_result('Extreme', extreme, extreme_square)
+print_mean_result('Trimmed', trimmed, trimmed_square)
 
 #plt.hist(sample_mixed, bins=20)
 #plt.savefig("mixed.pdf")

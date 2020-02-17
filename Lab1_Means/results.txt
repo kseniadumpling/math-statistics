@@ -1,0 +1,134 @@
+ ---------- Mean ----------
+
+
+0 distribution 
+
+        First moment: 0.0014750068
+        Second moment: 0.0096904574
+        Deviation: 0.0096882818
+
+1 distribution 
+
+        First moment: -0.0017458202
+        Second moment: 0.0101644889
+        Deviation: 0.0101614410
+
+2 distribution 
+
+        First moment: -0.0065202704
+        Second moment: 0.0094361156
+        Deviation: 0.0093936017
+
+3 distribution 
+
+        First moment: -1.4063125655
+        Second moment: 6465.3822730435
+        Deviation: 6463.4045580115
+
+4 distribution 
+
+        First moment: 0.0027801135
+        Second moment: 0.0178518230
+        Deviation: 0.0178440940
+
+
+ ---------- Median ----------
+
+
+0 distribution 
+
+        First moment: 0.0016857178
+        Second moment: 0.0148553824
+        Deviation: 0.0148525408
+
+1 distribution 
+
+        First moment: 0.0016573069
+        Second moment: 0.0289911755
+        Deviation: 0.0289884288
+
+2 distribution 
+
+        First moment: -0.0022523457
+        Second moment: 0.0057810968
+        Deviation: 0.0057760237
+
+3 distribution 
+
+        First moment: 0.0075161858
+        Second moment: 0.0265887129
+        Deviation: 0.0265322198
+
+4 distribution 
+
+        First moment: 0.0035665318
+        Second moment: 0.0168676380
+        Deviation: 0.0168549179
+
+
+ ---------- Extreme ----------
+
+
+0 distribution 
+
+        First moment: -0.0069894735
+        Second moment: 0.0956778099
+        Deviation: 0.0956289571
+
+1 distribution 
+
+        First moment: 0.0002325265
+        Second moment: 0.0006216627
+        Deviation: 0.0006216086
+
+2 distribution 
+
+        First moment: -0.0343980066
+        Second moment: 0.3791443122
+        Deviation: 0.3779610894
+
+3 distribution 
+
+        First moment: -69.6424345599
+        Second moment: 16079036.7892259173
+        Deviation: 16074186.7205344867
+
+4 distribution 
+
+        First moment: -0.0037988856
+        Second moment: 1.3497255666
+        Deviation: 1.3497111351
+
+
+ ---------- Trimmed ----------
+
+
+0 distribution 
+
+        First moment: 0.0020432284
+        Second moment: 0.0098167221
+        Deviation: 0.0098125473
+
+1 distribution 
+
+        First moment: -0.0018448266
+        Second moment: 0.0120845837
+        Deviation: 0.0120811803
+
+2 distribution 
+
+        First moment: -0.0051064559
+        Second moment: 0.0079936755
+        Deviation: 0.0079675996
+
+3 distribution 
+
+        First moment: 0.0026514768
+        Second moment: 0.0984363656
+        Deviation: 0.0984293352
+
+4 distribution 
+
+        First moment: 0.0034908680
+        Second moment: 0.0132714226
+        Deviation: 0.0132592365

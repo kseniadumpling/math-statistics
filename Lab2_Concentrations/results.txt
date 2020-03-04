@@ -1,0 +1,168 @@
+ ---------- s ----------
+
+
+0 distribution 
+
+	First moment: 0.994
+	Second moment: 0.994
+	Deviation: 0.005
+
+1 distribution 
+
+	First moment: 0.992
+	Second moment: 0.986
+	Deviation: 0.002
+
+2 distribution 
+
+	First moment: 0.996
+	Second moment: 1.004
+	Deviation: 0.012
+
+3 distribution 
+
+	First moment: 36.119
+	Second moment: 20400.152
+	Deviation: 19095.544
+
+4 distribution 
+
+	First moment: 1.327
+	Second moment: 1.783
+	Deviation: 0.022
+
+
+ ---------- d ----------
+
+
+0 distribution 
+
+	First moment: 0.794
+	Second moment: 0.634
+	Deviation: 0.004
+
+1 distribution 
+
+	First moment: 0.856
+	Second moment: 0.735
+	Deviation: 0.002
+
+2 distribution 
+
+	First moment: 0.707
+	Second moment: 0.504
+	Deviation: 0.005
+
+3 distribution 
+
+	First moment: 6.385
+	Second moment: 246.933
+	Deviation: 206.171
+
+4 distribution 
+
+	First moment: 0.952
+	Second moment: 0.912
+	Deviation: 0.006
+
+
+ ---------- R ----------
+
+
+0 distribution 
+
+	First moment: 5.001
+	Second moment: 25.358
+	Deviation: 0.351
+
+1 distribution 
+
+	First moment: 3.392
+	Second moment: 11.507
+	Deviation: 0.002
+
+2 distribution 
+
+	First moment: 6.453
+	Second moment: 43.510
+	Deviation: 1.865
+
+3 distribution 
+
+	First moment: 381.502
+	Second moment: 2113343.181
+	Deviation: 1967799.455
+
+4 distribution 
+
+	First moment: 9.413
+	Second moment: 93.281
+	Deviation: 4.670
+
+
+ ---------- IQR ----------
+
+
+0 distribution 
+
+	First moment: 1.334
+	Second moment: 1.803
+	Deviation: 0.023
+
+1 distribution 
+
+	First moment: 1.693
+	Second moment: 2.895
+	Deviation: 0.027
+
+2 distribution 
+
+	First moment: 0.980
+	Second moment: 0.980
+	Deviation: 0.020
+
+3 distribution 
+
+	First moment: 2.024
+	Second moment: 4.209
+	Deviation: 0.111
+
+4 distribution 
+
+	First moment: 1.443
+	Second moment: 2.110
+	Deviation: 0.027
+
+
+ ---------- MAD ----------
+
+
+0 distribution 
+
+	First moment: 0.670
+	Second moment: 0.455
+	Deviation: 0.006
+
+1 distribution 
+
+	First moment: 0.847
+	Second moment: 0.725
+	Deviation: 0.007
+
+2 distribution 
+
+	First moment: 0.492
+	Second moment: 0.247
+	Deviation: 0.005
+
+3 distribution 
+
+	First moment: 1.014
+	Second moment: 1.056
+	Deviation: 0.027
+
+4 distribution 
+
+	First moment: 0.727
+	Second moment: 0.536
+	Deviation: 0.007
